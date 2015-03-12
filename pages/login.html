@@ -10,7 +10,6 @@
 	<meta name="description" content="">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 
-
     <!-- SCROLLS -->
     <link rel="stylesheet" href="http://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css" />
     <link rel="stylesheet" href="http://netdna.bootstrapcdn.com/font-awesome/4.0.0/css/font-awesome.css" />
@@ -27,24 +26,23 @@
 
 <div class="container">
 	<section class="row login">
-		<div class="login--form col-xs-12 col-sm-6 col-sm-offset-3 col-md-6">
+		<div class="login--form text-center col-xs-12 col-sm-6 col-sm-offset-3">
 			<form>
 				<h2>Kirjaudu Huuto&shy;äänestykseen</h2>
 				
 				<label for="username">Käyttäjä</label>
-				<input type="text" name="userid" id="username" placeholder="oppilasnumero@myy.haaga-helia.fi">
+				<input type="text" name="userid" id="username" class="form-control" placeholder="oppilasnumero@myy.haaga-helia.fi">
 				
 				<label for="password">Salasana</label>
-				<input type="text" name="password" id="password" placeholder="password">
+				<input type="text" name="password" id="password" class="form-control" placeholder="password">
 
 				<!-- Halutaanko "pysy kirjautuneena sisään"-toiminto? -->
-				<button>Kirjaudu</button>
-				<a href="../index.html">Tästä etusivulle</a>
+				<button class="btn">Kirjaudu</button>
+				<a class="clearfix" href="../index.html">Tästä etusivulle</a>
 			</form>
 		</div>
 	</section>
 </div>
 
 </body>
-
 </html>

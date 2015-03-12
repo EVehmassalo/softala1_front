@@ -4,27 +4,12 @@
 	border-radius: 0.55em;
 }
 
-.login h2 {
-	width: 100%;
-	text-align: center;
-}
-
 .login label {
 	width: 100%;
 	display: none;
 }
 
-.login input {
+.login input, .login button {
 	width: 80%;
-}
-
-.login button {
-	width: 80%;
-}
-
-.login a {
-	width: 80%;
-	display: block;
-	text-align: center;
-	margin: 0.5em 0em;
+	margin: 0.5em auto;
 }

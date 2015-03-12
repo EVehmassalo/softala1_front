@@ -1,16 +1,14 @@
-input {
+.form-control {
+	padding: 0.60em 1em;
 	border: 1px solid #ccc;
 	border-radius: 0.30em;
-	padding: 0.60em 1em;
-	margin: 0.5em auto;
 }
 
-button {
+.btn {
+	padding: 0.60em 0.70em;
 	color: #FFF;
-	font-weight: bold;
 	background: #017AC9;
+	font-weight: bold;
 	border: none;
 	border-radius: 0.30em;
-	padding: 0.60em 0.70em;
-	margin: 0.5em 0em;
 }

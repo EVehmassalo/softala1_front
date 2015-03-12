@@ -1,0 +1,30 @@
+.login--form {
+	padding: 3em;
+	border: 1px solid #ccc;
+	border-radius: 0.55em;
+}
+
+.login h2 {
+	width: 100%;
+	text-align: center;
+}
+
+.login label {
+	width: 100%;
+	display: none;
+}
+
+.login input {
+	width: 80%;
+}
+
+.login button {
+	width: 80%;
+}
+
+.login a {
+	width: 80%;
+	display: block;
+	text-align: center;
+	margin: 0.5em 0em;
+}

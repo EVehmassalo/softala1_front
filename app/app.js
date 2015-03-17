@@ -9,7 +9,7 @@ softalaApp.config(function($routeProvider) {
         }})
 
         // route for the home page
-        .when('/', {
+        .when('/home', {
             templateUrl : 'pages/home.html',
             controller  : 'mainController'
         })
@@ -30,7 +30,6 @@ softalaApp.config(function($routeProvider) {
             templateUrl : 'pages/login.html',
             controller : 'loginController'
         });
-
 });
 
 // create the controller and inject Angular's $scope
@@ -47,6 +46,6 @@ softalaApp.controller('infoController', function($scope) {
     $scope.message = 'Mitään en kyllä tiedä';
 });
 
-softalaAll.controller('loginController', funtion($scope) {
+softalaAll.controller('loginController', function($scope) {
     $scope.message = 'Login form';
 });

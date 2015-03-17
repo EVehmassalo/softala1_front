@@ -4,6 +4,9 @@ var softalaApp = angular.module('softalaApp', ['ngRoute']);
 // configure our routes
 softalaApp.config(function($routeProvider) {
     $routeProvider
+        .when('/', {redirectTo: function () {
+            return '/login';
+        }})
 
         // route for the home page
         .when('/', {
@@ -21,7 +24,13 @@ softalaApp.config(function($routeProvider) {
         .when('/contact', {
             templateUrl : 'pages/info.html',
             controller  : 'infoController'
+        })
+
+        .when('/login', {
+            templateUrl : 'pages/login.html',
+            controller : 'loginController'
         });
+
 });
 
 // create the controller and inject Angular's $scope
@@ -36,4 +45,8 @@ softalaApp.controller('hopsController', function($scope) {
 
 softalaApp.controller('infoController', function($scope) {
     $scope.message = 'Mitään en kyllä tiedä';
+});
+
+softalaAll.controller('loginController', funtion($scope) {
+    $scope.message = 'Login form';
 });
